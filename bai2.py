@@ -1,1 +1,0 @@
-print("Nguyễn Văn Trọng Phúc")

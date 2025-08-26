@@ -1,3 +1,1 @@
-
-for i in range(4):
-    print("*" * 9)
+print(" Mình về mình có nhớ ta ? \n Mười lăm năm ấy thiết tha mặn nồng. \n Mình về mình có nhớ không ? \n Nhìn cây  nhớ núi,nhìn sông nhớ nguồn. ")
