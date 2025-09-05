@@ -4,7 +4,7 @@
 
 <h2 align="center">Hi 👋, I'm TRONG-PHUC</h2>
 <p align="center">
-  <h3 align="center"> các bài tập python </h3>
+  <h3 align="center"> Chủ đề về python </h3>
 </p>
 
 > 
