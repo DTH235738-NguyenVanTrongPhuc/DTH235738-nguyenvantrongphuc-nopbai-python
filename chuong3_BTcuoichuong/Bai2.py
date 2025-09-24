@@ -1,0 +1,5 @@
+n=input("nhap mot chuoi: ")
+print("chieu dai chuoi vua nhap la: ",len(n))
+print("ky tu dau tien cua chuoi la: ",n[0])
+print("ky tu cuoi cung cua chuoi la: ",n[-1])
+print("ky tu o vi tri 3 cua chuoi la: ",n[2])
