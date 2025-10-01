@@ -1,0 +1,5 @@
+ngay=int(input("nhap ngay (1->31) "))
+thang=int(input("nhap thang (1->12) "))
+nam=int(input("nhap nam (0<nam<=2025)"))
+print(f"ngay vua nhap tu ban phim la: ngay  {ngay} thang {thang} nam {nam}")
+print(f"ngay ke sau ngay vua nhap la: ngay {ngay+1} thang {thang} nam {nam}")
