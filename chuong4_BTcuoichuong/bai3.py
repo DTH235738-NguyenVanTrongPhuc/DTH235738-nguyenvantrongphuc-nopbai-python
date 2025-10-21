@@ -1,19 +1,7 @@
-def GenPrim(n):
-    def is_prime(x):
-        if x < 2:
-            return False
-        for i in range(2, int(x**0.5) + 1):
-            if x % i == 0:
-                return False
-        return True
-
-    count = 0
-    num = 2
-    while count < n:
-        if is_prime(num):
-            yield num
-            count += 1
-        num += 1
-
-n = int(input("Nhập số lượng số nguyên tố đầu tiên cần lấy: "))
-print("Các số nguyên tố đầu tiên là:", list(GenPrim(n)))
+def giaithua(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n*giaithua(n-1)
+nn=int(input("Nhập n: "))
+print("Giai thừa của",nn,"là:",giaithua(nn))

@@ -1,9 +1,19 @@
-def sinh_n_so_chinh_phuong(n):
-    chinhphuong = []
-    i = 0
-    while len(chinhphuong) < n:
-        chinhphuong.append(i * i)
-        i += 1
-    return chinhphuong
-n= int(input("Nhập số lượng số chính phương đầu tiên cần lấy: "))
-print("Các số chính phương đầu tiên là:", sinh_n_so_chinh_phuong(n))
+def GenPrim(n):
+    def is_prime(x):
+        if x < 2:
+            return False
+        for i in range(2, int(x**0.5) + 1):
+            if x % i == 0:
+                return False
+        return True
+
+    count = 0
+    num = 2
+    while count < n:
+        if is_prime(num):
+            yield num
+            count += 1
+        num += 1
+
+n = int(input("Nhập số lượng số nguyên tố đầu tiên cần lấy: "))
+print("Các số nguyên tố đầu tiên là:", list(GenPrim(n)))
